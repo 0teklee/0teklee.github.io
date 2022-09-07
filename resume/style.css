@@ -1,0 +1,217 @@
+body {
+  padding: 3rem 20%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans KR", -apple-system, sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    padding: 2rem 10%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  white-space: normal;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(76, 0, 229);
+  border-bottom: 1px solid rgb(76, 0, 229);
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgb(209, 149, 223);
+  border-color: rgb(209, 149, 223);
+  transition: 0.5s;
+}
+
+ul {
+  list-style-type: "-  ";
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+pre {
+  margin: 0 0 3rem 0;
+  padding: 0;
+  font-family: "IBM Plex Sans KR", -apple-system, sans-serif;
+  word-break: keep-all;
+  line-break: strict;
+  white-space: normal;
+}
+
+#headerTitle {
+  word-break: keep-all;
+}
+
+.headerAbout {
+  padding-left: 1rem;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.workAbout {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  line-height: 0.5;
+}
+
+hr {
+  border-color: #2d10b0;
+  border-style: solid;
+}
+
+.progressContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 100%;
+
+  height: 8px;
+  background: #827aa3;
+}
+
+.progressHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  height: 8px;
+  background: linear-gradient(30deg, #2d10b0, rgb(209, 149, 223));
+}
+
+.breakLine {
+  margin: 4rem 0;
+}
+
+.subBreakLine {
+  width: 95%;
+  margin: 2rem 0;
+}
+
+.contactList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project,
+.internship {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project,
+  .internship {
+    flex-direction: column;
+  }
+}
+
+.projectHeader,
+.internshipHeader {
+  flex: 1;
+  line-height: 1;
+}
+
+.projectTitle {
+  margin-bottom: 0.5rem;
+}
+.projectTitle,
+.projectKrTitle,
+.projectSubTitle {
+  margin-top: 0;
+}
+
+.projectDetail {
+  flex: 2;
+  margin: 1rem 0 0 3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectDetail {
+    margin: 3rem 0 0 0;
+  }
+}
+
+.headerLinks {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+.headerLinks a {
+  width: fit-content;
+}
+
+.projectresponsiblities {
+  margin-bottom: 2rem;
+}
+
+#skillMainTitle {
+  margin-bottom: 3rem;
+}
+
+#skillExperienceTitle {
+  margin-bottom: 0;
+}
+
+.skillExperience {
+  margin-top: 0;
+  font-size: 1rem;
+  color: grey;
+}
+
+.skillList {
+  margin-bottom: 2.5rem;
+}
+
+.educationHeader {
+  margin-top: 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.405);
+
+  text-align: center;
+}
+
+.top {
+  all: unset;
+  cursor: pointer;
+}
