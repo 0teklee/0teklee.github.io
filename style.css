@@ -1,0 +1,58 @@
+main {
+  padding: 5rem;
+  font-family: "IBM Plex Sans KR";
+}
+
+main,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main > h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #2d10b0, rgb(209, 149, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main > h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #000;
+}
+
+section {
+  width: 100%;
+  max-width: 30rem;
+  padding: 1rem 10rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  padding: 0 2rem;
+}
+
+.flex:hover {
+  background: linear-gradient(90deg, #d2ef4f, #306c20);
+  background-blend-mode: lighten;
+  filter: opacity(50%) invert(1);
+}
+
+.flex:hover > a {
+  font-weight: 600;
+}
+
+.flex > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex > a:hover {
+  color: #2d10b0;
+  border-bottom: 1px solid #2d10b0;
+}
