@@ -76,6 +76,13 @@ pre {
   margin-bottom: 0.5rem;
 }
 
+#workExperienceTitle,
+#portfolioTitle {
+  background: linear-gradient(100deg, #2d10b0, rgb(209, 149, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .workAbout {
   margin-top: 0;
   margin-bottom: 3rem;
