@@ -32,6 +32,9 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+strong {
+  font-weight: 900;
+}
 
 a {
   text-decoration: none;
@@ -196,6 +199,13 @@ hr {
   margin-top: 0;
   font-size: 1rem;
   color: grey;
+}
+
+.etcFeature {
+  margin-top: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(83, 83, 83);
 }
 
 .skillList {
