@@ -205,12 +205,7 @@
                 >
                 <h3 class="projectSubTitle">Responsiblities</h3>
                 <ul class="projectresponsiblities">
-                  <li>getStaticPaths와 getStaticProps를 사용해 페이지 pre-render 구현</li>
-                  <li>
-                    useSWRInfinite와 interserction-observer api를 활용하여
-                    무한스크롤 기능 구현
-                  </li>
-                  <li>react-hook-form을 활용해 페이지 전체 리렌더링 방지</li>
+                  <li>정적 사이트 생성(SSG)을 사용해 페이지 pre-render 구현</li>
                 </ul>
                 <h3 class="projectSubTitle">Tech Stack</h3>
                 <p class="projectTechStack">
@@ -240,12 +235,8 @@
               <h3 class="projectSubTitle">Responsiblities</h3>
               <ul class="projectresponsiblities">
                 <li>
-                  비디오 태그와 컨트롤 컴포넌트를 분리하여 리렌더링 성능 이슈
+                  비디오 태그와 컨트롤 컴포넌트를 분리하고, useForwardRef와 useImperative를 사용하여 리렌더링 성능 이슈
                   개선
-                </li>
-                <li>
-                  useForwardRef와 useImperative를 사용하여 자식 컴포넌트의
-                  이벤트 핸들러가 부모 컴포넌트에서 실행되도록 구현
                 </li>
               </ul>
               <h3 class="projectSubTitle">Tech Stack</h3>
@@ -260,8 +251,7 @@
       </section>
       <hr class="breakLine" />
       <section class="portfolio">
-        <h2 class="sectionTitle" id="portfolioTitle">Portfolio</h2>
-        <h2 class="projectKrTitle">포트폴리오</h2>
+        <h2 class="sectionTitle" id="portfolioTitle">Other Experience</h2>
         <div class="project">
           <header class="projectHeader">
             <h2 class="projectTitle">Teklog</h2>
@@ -284,18 +274,19 @@
               목표는 전적으로 <strong>사용자 인터페이스와 경험</strong>에 초점을
               두었습니다.
             </li>
-            <li>만족도 높은 사용자 경험을 위한 SEO 및 성능 최적화</li>
+            <li>만족도 높은 사용자 경험을 위한 <strong>SEO 및 성능 최적화</strong></li>
           </ul>
           <h3 class="projectSubTitle">Features</h3>
           <ul class="projectresponsiblities">
             <li>
-              서버사이드 렌더링(SSR)과 정적 사이트 생성(SSG)을 사용해 SEO 최적화
-              및 성능 개선 
-              <p class="etcFeature"> Lighthouse Performance, SEO Score 100 달성</p>
+              서버사이드 렌더링(SSR)과 정적 사이트 생성(ISR)을 사용해 SEO 최적화
+              <p class="etcFeature">사이트 내 모든 페이지 Lighthouse SEO Score 100 달성</p>
             </li>
-            <li>블로그 포스트 생성, 수정, 삭제 페이지 구현</li>
-            <li>next/auth를 사용하여 소셜로그인 (깃허브) 구현</li>
-            <li>카테고리, 태그, 월별 필터링 구현</li>
+            <li>
+              성능 최적화 Lighthouse Performance Score 100 달성
+              <p class="etcFeature"> Performance Score 62% 개선</p>
+              <p class="etcFeature"> FCP 0.3s, LCP 0.7s, Speed Index 0.5s, TBT 30ms</p>
+            </li>
             <li>
               사용자 편의성을 위한 기능 설계 및 구현
               <p class="etcFeature"> 모바일 반응형 대응, night 모드, 헤더 & 푸터 및 필터링 nav 바,
@@ -344,31 +335,13 @@
           </ul>
           <h3 class="projectSubTitle">Responsiblities</h3>
           <ul class="projectresponsiblities">
-            <li>매물 탐색 페이지 내 지도 컴포넌트</li>
-            <ul>
               <li>
-                지도 페이지 레이아웃 컴포넌트 개발
+                Kakao Map API를 이용한 지도 컴포넌트 개발
               </li>
               <li>
-                상태 관리를 위한 공용 Context API 개발
+                팀원들과 함께 사용할 공용 Context API, 지도 페이지 레이아웃 컴포넌트 개발
               </li>
-            </ul>
-            <li>매물 탐색 페이지 내 검색/필터링 모달</li>
-            <ul>
-              <li>모달 밖 영역 클릭 시 모달이 꺼지도록 개선</li>
-              <li>방 종류와 거래 종류에 따른 필터링 기능 구현</li>
-              <li>매물, 주소 검색 결과 클릭 시 지도 이동 구현</li>
-            </ul>
-            <li>부동산 매물 등록 / 수정 페이지</li>
-            <ul>
-              <li>Context API의 상태 관리를 활용하여 리렌더링 최소화</li>
-              <li>
-                react-daum-postcode api를 이용해 상세주소 검색창 모달 구현.
-                <p class="etcFeature">
-                  모달에서 선택한 검색 결과 주소로 Kakao map api 의 지도 업데이트
-                </p>
-                </li>
-            </ul>
+            <li>매물 탐색 페이지 내 검색/필터링 모달 구현</li>
           </ul>
           <h3 class="projectSubTitle">Tech Stack</h3>
           <ul class="projectTechStack">
@@ -379,6 +352,21 @@
            react-daum-postcode api
           </ul>
         </div>
+      </div>
+        <hr class="subBreakLine" />
+        <div class="project">
+          <header class="projectHeader">
+            <h2 class="projectTitle">Lesson Langue</h2>
+            <h3 class="projectKrTitle">개인 사업</h3>
+            <p class="date">2017 ~ 2021</p>
+          </header>
+          <div class="projectDetail">
+          <h3 class="projectSubTitle">Description</h3>
+          <pre class="description">
+            4년 반동안 입시 교육 관련 개인 사업을 운영했습니다. 온라인으로 고객을 모집하였고, 강사님들과 함께 오프라인과 온라인 강의 또한 병행하였습니다.
+            코로나 이후 점차 온라인의 비중이 늘어났고, 온라인 서비스에 더 깊은 관심을 갖게 되면서 개발자의 길을 택하게 되었습니다.
+                </pre>
+            </div>
       </section>
       <hr class="breakLine" />
       <section class="skill">
